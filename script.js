@@ -68,6 +68,10 @@ const editTask = (buttonEl) => {
   taskForm.classList.toggle("hidden");
 };
 
+if (taskData.length) {
+  updateTaskContainer();
+}
+
 const reset = () => {
   titleInput.value = "";
   dateInput.value = "";
