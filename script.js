@@ -110,3 +110,6 @@ const myTaskArr = [
 ];
 
 localStorage.setItem("data", JSON.stringify(myTaskArr));
+
+const getTaskArr = localStorage.getItem("data");
+console.log(getTaskArr);
