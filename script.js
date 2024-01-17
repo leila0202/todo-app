@@ -51,6 +51,8 @@ const deleteTask = (buttonEl) => {
   taskData.splice(dataArrIndex, 1);
 };
 
+const editTask = (buttonEl) => {};
+
 const reset = () => {
   titleInput.value = "";
   dateInput.value = "";
